@@ -1,0 +1,85 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f8f8f8;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.card {
+  border: 1px solid rgb(102, 189, 227);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s;
+  margin-bottom: 20px;
+  width: calc(33.33% - 20px); /* Three cards in a row with some spacing */
+  box-sizing: border-box;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card:hover {
+  transform: scale(1.03);
+}
+
+.card img {
+  height: 200px;
+  object-fit: cover;
+  padding: 10px;
+}
+
+.card-body {
+  padding: 15px;
+}
+
+.card-body h3{
+  color: #2a82e0;
+}
+
+.card-body p{
+  color: rgb(84, 224, 210);
+}
+
+.product-checkbox {
+  margin-right: 5px;
+}
+
+.total-box {
+  background-color: #ec6b6b;
+  border: 1px solid #171111;
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: 20px;
+  text-align: right;
+}
+
+button {
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  display: block;
+}
+
+button:hover {
+  background-color: rgb(30, 190, 118);
+}
+
+h1 {
+  text-align: center;
+  color: #458edb; /* Header text color */
+  margin-bottom: 20px;
+}
